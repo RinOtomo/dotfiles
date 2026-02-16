@@ -1,0 +1,24 @@
+# Shared Codex defaults for this dotfiles repo.
+# Local overrides can be passed at runtime: codex -c key=value
+
+model = "gpt-5.3-codex"
+approval_policy = "on-failure"
+sandbox_mode = "workspace-write"
+personality = "pragmatic"
+model_reasoning_effort = "medium"
+model_verbosity = "low"
+model_instructions_file = "~/.codex/AGENTS.md"
+
+[profiles.safe]
+approval_policy = "untrusted"
+
+[profiles.fast]
+model_reasoning_effort = "low"
+model_verbosity = "low"
+
+[profiles.deep]
+model_reasoning_effort = "high"
+model_verbosity = "medium"
+
+[notice.model_migrations]
+gpt-5 = "gpt-5.3-codex"

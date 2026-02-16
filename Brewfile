@@ -1,0 +1,12 @@
+brew "fzf"
+brew "gh"
+brew "mise"
+
+cask "claude"
+cask "claude-code"
+cask "codex"
+cask "visual-studio-code"
+cask "arc"
+cask "1password"
+cask "raycast"
+cask "karabiner-elements"

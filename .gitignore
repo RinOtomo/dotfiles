@@ -1,0 +1,12 @@
+.DS_Store
+
+local/**
+!local/
+!local/zsh/
+!local/git/
+!local/secrets/
+!local/zsh/.gitkeep
+!local/zsh/env.example
+!local/git/.gitkeep
+!local/secrets/.gitkeep
+local/zsh/env.zsh
