@@ -1,5 +1,7 @@
 .DS_Store
 
+claude.json
+
 local/**
 !local/
 !local/zsh/
