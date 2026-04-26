@@ -4,3 +4,8 @@
 !CLAUDE.md
 !rules/
 !rules/**
+!docs/
+!docs/feedback/
+!docs/feedback/.gitkeep
+!skills/
+!skills/**
