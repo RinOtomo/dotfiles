@@ -100,6 +100,7 @@ install_brew_packages() {
 link_dotfiles() {
     link_file "${SCRIPT_DIR}/zprofile" "${HOME}/.zprofile"
     link_file "${SCRIPT_DIR}/zshrc" "${HOME}/.zshrc"
+    link_file "${SCRIPT_DIR}/config/karabiner/karabiner.json" "${HOME}/.config/karabiner/karabiner.json"
 }
 
 # 標準の初期化フロー
