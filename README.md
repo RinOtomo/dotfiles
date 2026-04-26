@@ -27,6 +27,7 @@ Shared Codex settings are stored in `config/codex`.
 ```
 
 This links:
+
 - `~/.codex -> <dotfiles>/config/codex`
 
 ## Claude Shared Config
@@ -38,6 +39,7 @@ Shared Claude settings are stored in `config/claude`.
 ```
 
 This links:
+
 - `~/.claude -> <dotfiles>/config/claude`
 
 ## GitHub Repo Search Widget
