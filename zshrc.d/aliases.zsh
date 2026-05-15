@@ -72,9 +72,13 @@ alias_if_exists '......'      'cd ../../../../'
 # alias_if_exists 'env'       'env | sort'
 
 # Git aliases
-aias_if_exists 'gitc'       'git config --global --edit' 'git'
+alias_if_exists 'gitc'       'git config --global --edit' 'git'
 alias_if_exists 'exclude'    'vi .git/info/exclude'
 alias_if_exists 'reset1'     'git reset HEAD^' 'git'
 alias_if_exists 'reset2'     'git reset HEAD^^' 'git'
 alias_if_exists 'reset3'     'git reset HEAD^^^' 'git'
 alias_if_exists 'reset4'     'git reset HEAD^^^^' 'git'
+
+# Python
+alias_if_exists 'venv'       'source .venv/bin/activate'
+alias_if_exists 'reload'     'reset && exec $SHELL'
