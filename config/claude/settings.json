@@ -35,10 +35,12 @@
       "Bash(cp:*)",
       "WebFetch",
       "WebSearch"
-    ]
+    ],
+    "defaultMode": "auto"
   },
   "language": "Japanese",
   "effortLevel": "xhigh",
-  "voiceEnabled": true,
-  "showThinkingSummaries": true
+  "showThinkingSummaries": true,
+  "skipAutoPermissionPrompt": true,
+  "voiceEnabled": true
 }
