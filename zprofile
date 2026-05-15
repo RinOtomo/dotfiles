@@ -10,3 +10,7 @@ fi
 if [ -f "${SCRIPT_DIR}/local/zsh/zprofile.zsh" ]; then
     source "${SCRIPT_DIR}/local/zsh/zprofile.zsh"
 fi
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/rin_otomo/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
